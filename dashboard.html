@@ -1,0 +1,336 @@
+<div class="shell">
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-mark" aria-hidden="true"></div>
+      <h1>Raccoon HQ</h1>
+    </div>
+
+    <nav class="nav" aria-label="Main navigation">
+      <div class="nav-group">
+        <div class="nav-label">Command</div>
+        <a class="nav-item active" href="#">
+          <span class="nav-icon">◈</span>
+          <span>Overview</span>
+        </a>
+        <a class="nav-item" href="#">
+          <span class="nav-icon">▣</span>
+          <span>Operations</span>
+        </a>
+        <a class="nav-item" href="#">
+          <span class="nav-icon">◎</span>
+          <span>Intel</span>
+        </a>
+        <a class="nav-item" href="#">
+          <span class="nav-icon">◍</span>
+          <span>Resources</span>
+        </a>
+      </div>
+
+      <div class="nav-group">
+        <div class="nav-label">Teams</div>
+        <a class="nav-item" href="#">
+          <span class="nav-icon">✦</span>
+          <span>Field Ops</span>
+        </a>
+        <a class="nav-item" href="#">
+          <span class="nav-icon">⚑</span>
+          <span>Security</span>
+        </a>
+        <a class="nav-item" href="#">
+          <span class="nav-icon">⬡</span>
+          <span>Logistics</span>
+        </a>
+      </div>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="mini-card">
+        <div class="tag">Mission success</div>
+        <strong>91.4%</strong>
+        <div style="margin-top:8px; color: var(--muted); font-size:0.78rem;">Across 14 active sectors</div>
+      </div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <header class="topbar">
+      <div class="headline">
+        <h2>Headquarters Dashboard</h2>
+        <p>Global operations status and strategic readiness overview</p>
+      </div>
+
+      <div class="top-actions">
+        <span class="chip">UTC 18:42</span>
+        <button class="action-btn">Exports</button>
+        <button class="action-btn primary">Launch Report</button>
+      </div>
+    </header>
+
+    <section class="stats" aria-label="Key metrics">
+      <article class="card stat-card">
+        <div class="stat-top">
+          <span>Active assets</span>
+          <span class="delta up">+12.4%</span>
+        </div>
+        <div class="stat-value">1,482</div>
+        <div class="stat-foot">
+          <span>Across 8 theatres</span>
+          <div class="spark" aria-hidden="true">
+            <span style="height: 54%"></span>
+            <span style="height: 70%"></span>
+            <span style="height: 64%"></span>
+            <span style="height: 86%"></span>
+            <span style="height: 93%"></span>
+            <span style="height: 100%"></span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card stat-card">
+        <div class="stat-top">
+          <span>Response time</span>
+          <span class="delta down">-8.1%</span>
+        </div>
+        <div class="stat-value">4.2m</div>
+        <div class="stat-foot">
+          <span>Target 5.0m</span>
+          <div class="spark" aria-hidden="true">
+            <span style="height: 32%"></span>
+            <span style="height: 45%"></span>
+            <span style="height: 48%"></span>
+            <span style="height: 60%"></span>
+            <span style="height: 68%"></span>
+            <span style="height: 82%"></span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card stat-card">
+        <div class="stat-top">
+          <span>Threat index</span>
+          <span class="delta up">+3.2%</span>
+        </div>
+        <div class="stat-value">68.9</div>
+        <div class="stat-foot">
+          <span>Warning level amber</span>
+          <div class="spark" aria-hidden="true">
+            <span style="height: 48%"></span>
+            <span style="height: 44%"></span>
+            <span style="height: 62%"></span>
+            <span style="height: 75%"></span>
+            <span style="height: 90%"></span>
+            <span style="height: 100%"></span>
+          </div>
+        </div>
+      </article>
+
+      <article class="card stat-card">
+        <div class="stat-top">
+          <span>Budget health</span>
+          <span class="delta up">+5.9%</span>
+        </div>
+        <div class="stat-value">$8.4M</div>
+        <div class="stat-foot">
+          <span>Committed this cycle</span>
+          <div class="spark" aria-hidden="true">
+            <span style="height: 38%"></span>
+            <span style="height: 52%"></span>
+            <span style="height: 60%"></span>
+            <span style="height: 70%"></span>
+            <span style="height: 76%"></span>
+            <span style="height: 94%"></span>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section class="content-grid" aria-label="Operations overview">
+      <article class="card chart-box">
+        <div class="panel-header">
+          <h3>Operational throughput</h3>
+          <div class="legend">
+            <span><i class="dot" style="background: var(--primary);"></i>Current</span>
+            <span><i class="dot" style="background: var(--secondary);"></i>Forecast</span>
+          </div>
+        </div>
+
+        <div class="chart">
+          <div class="gridlines" aria-hidden="true"></div>
+          <div class="line-chart">
+            <div class="line-path">
+              <svg viewBox="0 0 680 180" preserveAspectRatio="none" aria-label="Operations chart">
+                <defs>
+                  <linearGradient id="fillGlow" x1="0" x2="0" y1="0" y2="1">
+                    <stop offset="0%" stop-color="rgba(120,213,255,0.44)" />
+                    <stop offset="100%" stop-color="rgba(120,213,255,0.02)" />
+                  </linearGradient>
+                </defs>
+                <path d="M0,130 C55,118 90,90 145,102 S240,70 298,92 S395,28 430,58 S520,50 570,30 S635,15 680,22 L680,180 L0,180 Z" fill="url(#fillGlow)" opacity="0.8"></path>
+                <path d="M0,130 C55,118 90,90 145,102 S240,70 298,92 S395,28 430,58 S520,50 570,30 S635,15 680,22" fill="none" stroke="var(--primary)" stroke-width="3" stroke-linecap="round"></path>
+                <path d="M0,110 C64,86 92,78 150,84 S246,92 300,68 S402,52 440,46 S540,56 610,36 S650,28 680,24" fill="none" stroke="var(--secondary)" stroke-width="2.4" stroke-dasharray="10 8" opacity="0.9"></path>
+              </svg>
+            </div>
+          </div>
+        </div>
+
+        <div class="line-legend">
+          <span>Jan</span>
+          <span>Feb</span>
+          <span>Mar</span>
+          <span>Apr</span>
+          <span>May</span>
+          <span>Jun</span>
+          <span>Jul</span>
+          <span>Aug</span>
+        </div>
+      </article>
+
+      <div class="stack">
+        <article class="card">
+          <div class="panel-header">
+            <h3>Recent activity</h3>
+            <button class="chip">Live</button>
+          </div>
+
+          <div class="activity-list">
+            <div class="activity-item">
+              <div class="avatar blue">AK</div>
+              <div class="activity-meta">
+                <strong>Alpha Kilo relay restored</strong>
+                <span>North Sector • 09 minutes ago</span>
+              </div>
+              <div class="status">
+                <span class="badge live">Stable</span>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="avatar green">JP</div>
+              <div class="activity-meta">
+                <strong>Supply convoy checkpoint cleared</strong>
+                <span>Coastal Corridor • 23 minutes ago</span>
+              </div>
+              <div class="status">
+                <span class="badge">On route</span>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="avatar gold">RT</div>
+              <div class="activity-meta">
+                <strong>Drone sweep requested</strong>
+                <span>Eastern Ring • 42 minutes ago</span>
+              </div>
+              <div class="status">
+                <span class="badge warn">Queued</span>
+              </div>
+            </div>
+
+            <div class="activity-item">
+              <div class="avatar purple">SM</div>
+              <div class="activity-meta">
+                <strong>Threat advisory escalated</strong>
+                <span>Redline Zone • 1 hour ago</span>
+              </div>
+              <div class="status">
+                <span class="badge alert">Review</span>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="bottom-grid">
+      <article class="card regional-panel">
+        <div class="panel-header">
+          <h3>Regional coverage</h3>
+          <span class="chip">14 sectors online</span>
+        </div>
+
+        <div class="map-wrap" aria-label="Regional map">
+          <div class="map-grid" aria-hidden="true"></div>
+          <div class="map-blob" aria-hidden="true"></div>
+
+          <div class="site one" title="North Relay"></div>
+          <div class="site two" title="Central Grid"></div>
+          <div class="site three" title="South Ridge"></div>
+          <div class="site four" title="Harbor Hub"></div>
+          <div class="site five" title="Shadow Valley"></div>
+
+          <div class="map-label label-1"><span></span>North</div>
+          <div class="map-label label-2"><span></span>Central</div>
+          <div class="map-label label-3"><span></span>Harbor</div>
+        </div>
+      </article>
+
+      <article class="card team-panel">
+        <div class="panel-header">
+          <h3>Team readiness</h3>
+          <span class="chip">Updated 5m ago</span>
+        </div>
+
+        <div class="mini-list">
+          <div class="mini-item">
+            <div class="left">
+              <span class="team-dot"></span>
+              <div>
+                <strong>Field Ops</strong>
+                <small>28 specialists</small>
+              </div>
+            </div>
+            <strong>94%</strong>
+          </div>
+
+          <div class="mini-item">
+            <div class="left">
+              <span class="team-dot alt"></span>
+              <div>
+                <strong>Security</strong>
+                <small>19 specialists</small>
+              </div>
+            </div>
+            <strong>88%</strong>
+          </div>
+
+          <div class="mini-item">
+            <div class="left">
+              <span class="team-dot warn"></span>
+              <div>
+                <strong>Logistics</strong>
+                <small>24 specialists</small>
+              </div>
+            </div>
+            <strong>79%</strong>
+          </div>
+        </div>
+
+        <div class="progress-lines">
+          <div class="progress-item">
+            <div class="progress-meta">
+              <span>Deployment rate</span>
+              <strong>72%</strong>
+            </div>
+            <div class="track"><span class="fill" style="width:72%"></span></div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-meta">
+              <span>Signal integrity</span>
+              <strong>89%</strong>
+            </div>
+            <div class="track"><span class="fill alt" style="width:89%"></span></div>
+          </div>
+
+          <div class="progress-item">
+            <div class="progress-meta">
+              <span>Resource load</span>
+              <strong>63%</strong>
+            </div>
+            <div class="track"><span class="fill warn" style="width:63%"></span></div>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+</div>
